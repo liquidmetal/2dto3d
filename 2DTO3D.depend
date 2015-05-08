@@ -1,0 +1,345 @@
+# depslib dependency file v1.0
+1417093415 source:f:\2dto3d\src\glutapp.cpp
+	<Windows.h>
+	<GL/glut.h>
+	"glutapp.h"
+
+1228530732 c:\program files (x86)\codeblocks\mingw\include\windows.h
+	<winresrc.h>
+	<stdarg.h>
+	<windef.h>
+	<wincon.h>
+	<winbase.h>
+	<wingdi.h>
+	<winuser.h>
+	<winnls.h>
+	<winver.h>
+	<winnetwk.h>
+	<winreg.h>
+	<winsvc.h>
+	<cderr.h>
+	<dde.h>
+	<ddeml.h>
+	<dlgs.h>
+	<imm.h>
+	<lzexpand.h>
+	<mmsystem.h>
+	<nb30.h>
+	<rpc.h>
+	<shellapi.h>
+	<winperf.h>
+	<commdlg.h>
+	<winspool.h>
+	<winsock2.h>
+	<winsock.h>
+	<ole2.h>
+
+1228530732 c:\program files (x86)\codeblocks\mingw\include\winresrc.h
+	<winuser.h>
+	<winnt.h>
+	<winver.h>
+	<dde.h>
+	<dlgs.h>
+	<commctrl.h>
+
+1228530734 c:\program files (x86)\codeblocks\mingw\include\winuser.h
+
+1228530732 c:\program files (x86)\codeblocks\mingw\include\winnt.h
+	<winerror.h>
+	<string.h>
+	<basetsd.h>
+	<pshpack4.h>
+	<poppack.h>
+
+1228530732 c:\program files (x86)\codeblocks\mingw\include\winerror.h
+
+1250308680 c:\program files (x86)\codeblocks\mingw\include\string.h
+	<_mingw.h>
+	<stddef.h>
+
+1250308674 c:\program files (x86)\codeblocks\mingw\include\_mingw.h
+
+1228530712 c:\program files (x86)\codeblocks\mingw\include\basetsd.h
+
+1228530724 c:\program files (x86)\codeblocks\mingw\include\pshpack4.h
+
+1228530724 c:\program files (x86)\codeblocks\mingw\include\poppack.h
+
+1228530734 c:\program files (x86)\codeblocks\mingw\include\winver.h
+
+1228530714 c:\program files (x86)\codeblocks\mingw\include\dde.h
+
+1228530714 c:\program files (x86)\codeblocks\mingw\include\dlgs.h
+
+1228530714 c:\program files (x86)\codeblocks\mingw\include\commctrl.h
+	<prsht.h>
+
+1228530724 c:\program files (x86)\codeblocks\mingw\include\prsht.h
+
+1228530732 c:\program files (x86)\codeblocks\mingw\include\windef.h
+	<winnt.h>
+
+1228530732 c:\program files (x86)\codeblocks\mingw\include\wincon.h
+
+1228530730 c:\program files (x86)\codeblocks\mingw\include\winbase.h
+
+1228530732 c:\program files (x86)\codeblocks\mingw\include\wingdi.h
+
+1228530732 c:\program files (x86)\codeblocks\mingw\include\winnls.h
+
+1228530732 c:\program files (x86)\codeblocks\mingw\include\winnetwk.h
+
+1228530732 c:\program files (x86)\codeblocks\mingw\include\winreg.h
+
+1228530734 c:\program files (x86)\codeblocks\mingw\include\winsvc.h
+
+1228530712 c:\program files (x86)\codeblocks\mingw\include\cderr.h
+
+1228530714 c:\program files (x86)\codeblocks\mingw\include\ddeml.h
+
+1228530716 c:\program files (x86)\codeblocks\mingw\include\imm.h
+
+1228530720 c:\program files (x86)\codeblocks\mingw\include\lzexpand.h
+
+1228530722 c:\program files (x86)\codeblocks\mingw\include\mmsystem.h
+
+1228530722 c:\program files (x86)\codeblocks\mingw\include\nb30.h
+
+1228530726 c:\program files (x86)\codeblocks\mingw\include\rpc.h
+	<windows.h>
+	<rpcdce.h>
+	<rpcnsi.h>
+	<rpcnterr.h>
+	<winerror.h>
+	<excpt.h>
+
+1228530726 c:\program files (x86)\codeblocks\mingw\include\rpcdce.h
+	<basetyps.h>
+	<rpcdcep.h>
+
+1228530712 c:\program files (x86)\codeblocks\mingw\include\basetyps.h
+
+1228530728 c:\program files (x86)\codeblocks\mingw\include\rpcdcep.h
+
+1228530728 c:\program files (x86)\codeblocks\mingw\include\rpcnsi.h
+
+1228530728 c:\program files (x86)\codeblocks\mingw\include\rpcnterr.h
+
+1250308676 c:\program files (x86)\codeblocks\mingw\include\excpt.h
+	<_mingw.h>
+	<windef.h>
+
+1228530728 c:\program files (x86)\codeblocks\mingw\include\shellapi.h
+	<pshpack2.h>
+	<poppack.h>
+
+1228530724 c:\program files (x86)\codeblocks\mingw\include\pshpack2.h
+
+1228530732 c:\program files (x86)\codeblocks\mingw\include\winperf.h
+
+1228530714 c:\program files (x86)\codeblocks\mingw\include\commdlg.h
+	<unknwn.h>
+	<prsht.h>
+
+1228530730 c:\program files (x86)\codeblocks\mingw\include\unknwn.h
+	<windows.h>
+	<objfwd.h>
+	<wtypes.h>
+
+1228530724 c:\program files (x86)\codeblocks\mingw\include\objfwd.h
+	<basetyps.h>
+
+1228530734 c:\program files (x86)\codeblocks\mingw\include\wtypes.h
+	<rpc.h>
+	<rpcndr.h>
+
+1228530728 c:\program files (x86)\codeblocks\mingw\include\rpcndr.h
+	<rpcnsip.h>
+	<objfwd.h>
+
+1228530728 c:\program files (x86)\codeblocks\mingw\include\rpcnsip.h
+
+1228530734 c:\program files (x86)\codeblocks\mingw\include\winspool.h
+
+1228530734 c:\program files (x86)\codeblocks\mingw\include\winsock2.h
+	<windows.h>
+
+1228530732 c:\program files (x86)\codeblocks\mingw\include\winsock.h
+	<windows.h>
+	<mswsock.h>
+
+1228530722 c:\program files (x86)\codeblocks\mingw\include\mswsock.h
+
+1228530724 c:\program files (x86)\codeblocks\mingw\include\ole2.h
+	<winerror.h>
+	<objbase.h>
+	<olectlid.h>
+	<oleauto.h>
+	<oleidl.h>
+
+1228530724 c:\program files (x86)\codeblocks\mingw\include\objbase.h
+	<rpc.h>
+	<rpcndr.h>
+	<stdlib.h>
+	<basetyps.h>
+	<wtypes.h>
+	<unknwn.h>
+	<objidl.h>
+	<cguid.h>
+
+1250308680 c:\program files (x86)\codeblocks\mingw\include\stdlib.h
+	<_mingw.h>
+	<stddef.h>
+
+1228530724 c:\program files (x86)\codeblocks\mingw\include\objidl.h
+	<objfwd.h>
+
+1228530712 c:\program files (x86)\codeblocks\mingw\include\cguid.h
+
+1228530724 c:\program files (x86)\codeblocks\mingw\include\olectlid.h
+
+1228530724 c:\program files (x86)\codeblocks\mingw\include\oleauto.h
+	<oaidl.h>
+
+1228530722 c:\program files (x86)\codeblocks\mingw\include\oaidl.h
+	<windows.h>
+	<ole2.h>
+
+1228530724 c:\program files (x86)\codeblocks\mingw\include\oleidl.h
+	<objfwd.h>
+
+1319475249 c:\program files (x86)\codeblocks\mingw\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1228530734 c:\program files (x86)\codeblocks\mingw\include\gl\gl.h
+
+1228530734 c:\program files (x86)\codeblocks\mingw\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1391884320 f:\2dto3d\include\glutapp.h
+
+1418472044 source:f:\2dto3d\src\main.cpp
+	<string.h>
+	<GL/glew.h>
+	<GL/glui.h>
+	<SOIL.H>
+
+1374464600 c:\program files (x86)\codeblocks\mingw\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1250308676 c:\program files (x86)\codeblocks\mingw\include\inttypes.h
+	<_mingw.h>
+	<stdint.h>
+	<stddef.h>
+
+1250308680 c:\program files (x86)\codeblocks\mingw\include\stdint.h
+	<stddef.h>
+
+1392195470 c:\program files (x86)\codeblocks\mingw\include\gl\glui.h
+	<Windows.h>
+	<cstdlib>
+	<GL/freeglut.h>
+	<GL/openglut.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<cstdio>
+	<cstring>
+	<string>
+	<vector>
+
+1215434608 c:\program files (x86)\codeblocks\mingw\include\soil.h
+
+1418546436 source:f:\2dto3d\src\meshrenderer.cpp
+	"../include/quaternion.h"
+	"../include/meshRenderer.h"
+	"shader.h"
+
+1392226784 f:\2dto3d\include\quaternion.h
+	<stdio.h>
+	<math.h>
+
+1250308680 c:\program files (x86)\codeblocks\mingw\include\stdio.h
+	<_mingw.h>
+	<stddef.h>
+	<stdarg.h>
+	<sys/types.h>
+
+1250308682 c:\program files (x86)\codeblocks\mingw\include\sys\types.h
+	<_mingw.h>
+	<stddef.h>
+
+1250308678 c:\program files (x86)\codeblocks\mingw\include\math.h
+	<_mingw.h>
+
+1418546390 f:\2dto3d\include\meshrenderer.h
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<math.h>
+	"../include/glutapp.h"
+	"../include/ply.h"
+	<Windows.h>
+	<GL/glew.h>
+	<GL/glut.h>
+
+902440562 f:\2dto3d\include\ply.h
+	<stdio.h>
+	<stddef.h>
+
+1394949883 f:\2dto3d\include\shader.h
+
+1392226027 source:f:\2dto3d\src\ply.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"../include/ply.h"
+
+1392226038 source:f:\2dto3d\src\quaternion.cpp
+	"../include/quaternion.h"
+	<Windows.h>
+	<GL/glut.h>
+
+1394949892 source:f:\2dto3d\src\shader.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1323514567 source:f:\2dto3d\src\soil.c
+	<windows.h>
+	<wingdi.h>
+	<GL/glut.h>
+	<OpenGL/gl.h>
+	<Carbon/Carbon.h>
+	<GL/gl.h>
+	<GL/glx.h>
+	<SOIL.h>
+	<stb_image_aug.h>
+	<image_helper.h>
+	<image_DXT.h>
+	<stdlib.h>
+	<string.h>
+
+1322489020 c:\program files (x86)\codeblocks\mingw\include\gl\glx.h
+	<GL/vms_x_fix.h>
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<GL/gl.h>
+	"glx_mangle.h"
+	<GL/glxext.h>
+
+1215434608 c:\program files (x86)\codeblocks\mingw\include\stb_image_aug.h
+	<stdio.h>
+
+1215434608 c:\program files (x86)\codeblocks\mingw\include\image_helper.h
+
+1215434608 c:\program files (x86)\codeblocks\mingw\include\image_dxt.h
+

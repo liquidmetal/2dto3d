@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="include\glutapp.h" open="0" top="0" tabpos="4">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="include\meshRenderer.h" open="1" top="0" tabpos="1">
+		<Cursor position="1968" topLine="52" />
+	</File>
+	<File name="include\ply.h" open="1" top="0" tabpos="6">
+		<Cursor position="2420" topLine="64" />
+	</File>
+	<File name="include\shader.h" open="1" top="0" tabpos="7">
+		<Cursor position="2" topLine="0" />
+	</File>
+	<File name="src\SOIL.c" open="0" top="0" tabpos="0">
+		<Cursor position="4451" topLine="137" />
+	</File>
+	<File name="src\glutapp.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="203" topLine="0" />
+	</File>
+	<File name="src\main.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="5173" topLine="217" />
+	</File>
+	<File name="src\meshRenderer.cpp" open="1" top="1" tabpos="2">
+		<Cursor position="12657" topLine="383" />
+	</File>
+	<File name="src\ply.c" open="1" top="0" tabpos="4">
+		<Cursor position="36061" topLine="1261" />
+	</File>
+</CodeBlocks_layout_file>

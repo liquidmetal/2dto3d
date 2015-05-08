@@ -1,0 +1,2 @@
+
+char *textFileRead(char *fn);
