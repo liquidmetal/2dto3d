@@ -19,5 +19,5 @@ g++ src/* -libglew -libglut -libGL -libSOIL -libglui
 
 ./2DTO3D "name of the output ply" width height
 
-* width and height would be the size of the image to be loaded
+**width and height would be the size of the image to be loaded, you can set a default of 600 400
 
