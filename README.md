@@ -17,7 +17,7 @@ Launching
 ------------------------------------------------------------
 g++ src/* -libglew -libglut -libGL -libSOIL -libglui
 
-./2DTO3D name of the output ply width height
+./2DTO3D "name of the output ply" width height
 
 * width and height would be the size of the image to be loaded
 
