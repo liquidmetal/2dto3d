@@ -21,3 +21,4 @@ g++ src/* -libglew -libglut -libGL -libSOIL -libglui
 
 **width and height would be the size of the image to be loaded, you can set a default of 600 400
 
+
