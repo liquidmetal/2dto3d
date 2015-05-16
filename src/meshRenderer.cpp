@@ -116,7 +116,7 @@ for(int i = 0;i<8;i++)
         printf ("Centre %f %f %f\n",cx,cy,cz);
 
         //radius = sqrtf(cx*cx+cy*cy);
-        radius = abs(cx);
+        radius = fabs(cx);
         float minor = sqrtf(pow(screen_pick[6]-cx,2)+pow(screen_pick[7]-cy,2));
         float tilt =asinf(minor/radius);
         float z3 = sqrtf(2*(cx*screen_pick[6]+cy*screen_pick[7]) - screen_pick[6]*screen_pick[6]);
@@ -126,8 +126,12 @@ for(int i = 0;i<8;i++)
          //u2={screen_pick[6]-cx,screen_pick[7]-cy,z3};
 
         // u1 = {cx/radius,cy/radius,0};
-        u1 = {cx,cy,0};
-         u2={screen_pick[6]-cx,screen_pick[7]-cy,z3};
+        u1[0] = cx;
+        u1[1] = cy;
+        u1[2] = 0;
+         u2[0]=screen_pick[6]-cx;
+         u2[1]=screen_pick[7]-cy;
+         u2[2]=z3;
         printf(" Centre %f %f  Radius %f \n",cx,cy,radius);
         printf("U2 %f %f %f\n",u2[0],u2[1],u2[2]);
 float mag = sqrtf(cx*cx+cy*cy);
@@ -592,8 +596,14 @@ void computeCuboid( int* screen_pick,int w,int h){
 
 //distance = screen_pick[3]-screen_pick[1];
 
-u1={screen_pick[0],screen_pick[1],z1};
-u2 = {screen_pick[4],screen_pick[5],z3};
+u1[0]=screen_pick[0];
+u1[1]=screen_pick[1];
+u1[2]=z1;
+
+u2[0] = screen_pick[4];
+u2[1] = screen_pick[5];
+u2[2] = z3;
+
 printf("Cylinder end points\n");
 for(int k =0;k<3;k++)
         printf("%f   ",u1[k]);
@@ -616,22 +626,42 @@ for(int i =0; i<3;i++){
 //tilt = asinf()
 //DrawCircle(cx,cy,cz,radius,16,u1,u2,0);
 float points[8][3],*temp;
-points[0]={0,0,0};
-points[1]={screen_pick[0],screen_pick[1],z1};
-points[2]={screen_pick[2],screen_pick[3],z2};
-points[3]={screen_pick[4],screen_pick[5],z3};
 
+points[0][0]=0;
+points[0][1]=0;
+points[0][2]=0;
+
+points[1][0]=screen_pick[0];
+points[1][1]=screen_pick[1];
+points[1][2]=z1;
+
+points[2][0]=screen_pick[2];
+points[2][1]=screen_pick[3];
+points[2][2]=z2;
+
+points[3][0]=screen_pick[4];
+points[3][1]=screen_pick[5];
+points[3][2]=z3;
 
 temp =resultant(points[1],points[2]);
-points[4] = {temp[0],temp[1],temp[2]};
+points[4][0] = temp[0];
+points[4][1] = temp[1];
+points[4][2] = temp[2];
 
 temp=resultant(points[2],points[3]);
-points[5]  = {temp[0],temp[1],temp[2]};
+points[5][0]  = temp[0];
+points[5][1]  = temp[1];
+points[5][2]  = temp[2];
 
 temp=resultant(points[3],points[1]);
-points[6]  = {temp[0],temp[1],temp[2]};
+points[6][0]  = temp[0];
+points[6][1]  = temp[1];
+points[6][2]  = temp[2];
+
 temp = resultant(temp,points[2]);
-points[7]  = {temp[0],temp[1],temp[2]};
+points[7][0]  = temp[0];
+points[7][1]  = temp[1];
+points[7][2]  = temp[2];
 //points[7] ={points[5][0]+points[1][0],points[5][1],points[5][2]};
 
 FILE *out = fopen("F:\\2DTO3D\\out.txt","w+");

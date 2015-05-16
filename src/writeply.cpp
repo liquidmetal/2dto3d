@@ -15,7 +15,7 @@ void write( ){
 char *filename = "F:\\2DTO3D\\model.ply";
 FILE* fp = fopen("F:\\2DTO3D\\model.ply","w+");
 int nelems = 2;
-char **elem_names = {"vertex","face"};
+char *elem_names[2] = {"vertex","face"};
 int file_type = PLY_ASCII;
 PlyProperty vert_props[] = {
   {"x", Float32, Float32, offsetof(Vertex,x), 0, 0, 0, 0},
