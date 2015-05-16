@@ -26,7 +26,7 @@ PlyProperty vert_props[] = {
 PlyProperty face_props[] = {
   {"vertex_indices",Uint8 , Int32, offsetof(Face,verts), 1, Uint8, Uint8,offsetof(Face,nverts)}
 };
-PlyFile *model =ply_write ( fp,  nelems, elem_names,  file_type );
+PlyFile *model =write_ply ( fp,  nelems, elem_names,  file_type );
 if(model != NULL){
         model =open_for_writing_ply (filename,  nelems, elem_names,file_type );
         element_layout_ply ( model, elem_names[0], nelems, 3,vert_props );
