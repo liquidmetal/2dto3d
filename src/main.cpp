@@ -3,7 +3,7 @@
 #define GLEW_STATIC
 #include<GL/glew.h>
 #include <GL/glui.h>
-#include<SOIL.H>
+#include<SOIL.h>
 extern void disp();
 extern void read();
 //extern void getImageDimensions(char*,int&,int&);

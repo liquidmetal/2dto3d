@@ -6,11 +6,11 @@
 #include<stdlib.h>
 #include<iostream>
 #include<math.h>
-#include"../include/glutapp.h"
-#include"../include/ply.h"
+#include"glutapp.h"
+#include"ply.h"
 
 #define GLEW_STATIC
-#include<Windows.h>
+//#include<Windows.h>
 #include<GL/glew.h>
 #include<GL/glut.h>
 

@@ -1,6 +1,8 @@
 #ifndef WRITEPLY_H
 #define WRITEPLY_H
-//#include "ply.h"
+#include "ply.h"
+#include <stdio.h>
+#include "meshRenderer.h"
 
 class writeply
 {

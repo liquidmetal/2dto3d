@@ -1,5 +1,5 @@
 #include"../include/quaternion.h"
-#include<Windows.h>
+//#include<Windows.h>
 #include<GL/glut.h>
 void computeQuat(float t,float i,float j,float k,float *val){
 

@@ -1,5 +1,5 @@
 
-#include<Windows.h>
+//#include<Windows.h>
 #include<GL/glut.h>
 #include "glutapp.h"
 GlutApp::GlutApp(int& argc,char* argv[])
